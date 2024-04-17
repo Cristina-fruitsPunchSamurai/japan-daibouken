@@ -16,27 +16,17 @@
 
 body {
   margin: 0;
-  height: 100vh;
+  height: 100svh;
 }
 
 .header {
   background-image: url("../public/japan.webp");
   background-size: cover;
   background-position: center;
-  height: 40%;
+  height: 30vh;
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.home {
-  height: 100svh;
-  display: flex;
-  flex-direction: column;
-}
-
-.main {
-  flex: 1;
 }
