@@ -30,20 +30,20 @@ export default function Main() {
 
   return (
     <section className="mt-2 grid grid-cols-2 grid-rows-2 gap-1">
-      <div className="bg-[#EF3E36] flex flex-col items-center justify-center rounded-md h-32">
+      <div className="bg-[#EF3E36] flex flex-col items-center justify-center rounded-md h-48">
         <p><span className='font-medium'> Date :</span>  {currentDate}</p>
         <p> <span className='font-medium'> Time :</span> {currentHour}</p>
       </div>
-      <div className="bg-[#17BEBB] flex flex-col items-center justify-center rounded-md h-32">
+      <div className="bg-[#17BEBB] flex flex-col items-center justify-center rounded-md h-48">
         <p className='font-medium'>{weather}</p>
         {cloudy.includes(icon) && <FaCloud size={50} color='gray'/>}
         {sunny.includes(icon) && <FaSun size={50} />}
         {rainny.includes(icon) && <FaCloudRain size={50} />}
       </div>
-      <div className="bg-[#EDB88B] flex flex-col items-center justify-center rounded-md h-32">
+      <div className="bg-[#EDB88B] flex flex-col items-center justify-center rounded-md h-48">
         <p>Today's activities</p>
       </div>
-      <div className="bg-[#FAD8D6] flex flex-col items-center justify-center rounded-md h-32">
+      <div className="bg-[#FAD8D6] flex flex-col items-center justify-center rounded-md h-48">
         <p>Trip Planning</p>
       </div>
     </section>
