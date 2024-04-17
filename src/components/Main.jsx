@@ -30,7 +30,7 @@ export default function Main() {
     }, []);
 
   return (
-    <div className='main'>
+    <div className='min-h-[60vh]'>
     <section className="mt-2 grid grid-cols-2 grid-rows-2 gap-1">
       <div className="bg-[#EF3E36] flex flex-col items-center justify-center rounded-md h-48">
         <p><span className='font-medium'> Date :</span>  {currentDate}</p>
