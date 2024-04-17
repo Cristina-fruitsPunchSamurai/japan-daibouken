@@ -1,5 +1,7 @@
 import dayjs from 'dayjs';
 import 'dayjs/locale/ja';
+import utc from "dayjs/plugin/utc";
+import timezone from "dayjs/plugin/timezone";
 import '../index.css';
 import { useEffect, useState } from 'react';
 import { FaCloud } from "react-icons/fa";
@@ -15,8 +17,11 @@ export default function Main() {
     const [weather, setWeather] = useState();
     const [icon, setIcon] = useState();
     dayjs.locale('ja');
+    dayjs.extend(utc)
+    dayjs.extend(timezone)
+    dayjs.tz.setDefault('Asia/Tokyo')
     const currentDate = dayjs().format('D MMMM YYYY');
-    const currentHour = dayjs().format('HH:mm');
+    const currentHour = dayjs().tz().format('HH:mm');
 
     const fetchWeather = async () => {
         const response = await fetch('https://api.openweathermap.org/data/2.5/weather?q=Tokyo&appid=ef171a0f7a5385aa841ac64f68cfd9e8');
@@ -30,25 +35,23 @@ export default function Main() {
     }, []);
 
   return (
-    <div className='min-h-[60vh]'>
-    <section className="mt-2 grid grid-cols-2 grid-rows-2 gap-1">
-      <div className="bg-[#EF3E36] flex flex-col items-center justify-center rounded-md h-48">
+    <section className="mt-1 grid grid-cols-2 grid-rows-2 justify-center h-full">
+      <div className="bg-[#EF3E36] flex flex-col items-center justify-center rounded-md">
         <p><span className='font-medium'> Date :</span>  {currentDate}</p>
         <p> <span className='font-medium'> Time :</span> {currentHour}</p>
       </div>
-      <div className="bg-[#17BEBB] flex flex-col items-center justify-center rounded-md h-48">
+      <div className="bg-[#17BEBB] flex flex-col items-center justify-center rounded-md">
         <p className='font-medium'>{weather}</p>
         {cloudy.includes(icon) && <FaCloud size={50} color='gray'/>}
         {sunny.includes(icon) && <FaSun size={50} />}
         {rainny.includes(icon) && <FaCloudRain size={50} />}
       </div>
-      <div className="bg-[#EDB88B] flex flex-col items-center justify-center rounded-md h-48">
+      <div className="bg-[#EDB88B] flex flex-col items-center justify-center rounded-md">
         <p>Today's activities</p>
       </div>
-      <div className="bg-[#FAD8D6] flex flex-col items-center justify-center rounded-md h-48">
+      <div className="bg-[#FAD8D6] flex flex-col items-center justify-center rounded-md">
         <p>Trip Planning</p>
       </div>
     </section>
-    </div>
   )
 }
