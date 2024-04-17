@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import { FaCloud } from "react-icons/fa";
 import { FaCloudRain } from "react-icons/fa";
 import { FaSun } from "react-icons/fa";
+import '../index.css';
 
 const cloudy = ["03d", "04d", "03n", "04n"];
 const sunny = ["01d", "02d", "01n", "02n"];
@@ -29,6 +30,7 @@ export default function Main() {
     }, []);
 
   return (
+    <div className='main'>
     <section className="mt-2 grid grid-cols-2 grid-rows-2 gap-1">
       <div className="bg-[#EF3E36] flex flex-col items-center justify-center rounded-md h-48">
         <p><span className='font-medium'> Date :</span>  {currentDate}</p>
@@ -47,5 +49,6 @@ export default function Main() {
         <p>Trip Planning</p>
       </div>
     </section>
+    </div>
   )
 }
