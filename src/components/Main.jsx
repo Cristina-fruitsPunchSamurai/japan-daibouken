@@ -8,20 +8,31 @@ import { FaCloud } from "react-icons/fa";
 import { FaCloudRain } from "react-icons/fa";
 import { FaSun } from "react-icons/fa";
 import '../index.css';
+import { Link } from 'react-router-dom';
+import { useContext } from 'react';
+import { DateContext } from '../context/dateContext';
 
 const cloudy = ["03d", "04d", "03n", "04n"];
 const sunny = ["01d", "02d", "01n", "02n"];
-const rainny = ["09d", "10d", "01n", "02n"];
+const rainny = ["09d", "10d", "09n", "10n"];
 
 export default function Main() {
     const [weather, setWeather] = useState();
     const [icon, setIcon] = useState();
+    const {setCurrentDate, setCurrentHour, currentDate, currentHour} = useContext(DateContext);
     dayjs.locale('ja');
     dayjs.extend(utc)
     dayjs.extend(timezone)
     dayjs.tz.setDefault('Asia/Tokyo')
-    const currentDate = dayjs().format('D MMMM YYYY');
-    const currentHour = dayjs().tz().format('HH:mm');
+
+    useEffect(() => {
+      setCurrentDate(dayjs().format('D MMMM YYYY'));
+      setCurrentHour(dayjs().tz().format('HH:mm'));
+    }, []);
+
+
+    // const currentDate = dayjs().format('D MMMM YYYY');
+    // const currentHour = dayjs().tz().format('HH:mm');
 
     const fetchWeather = async () => {
         const response = await fetch('https://api.openweathermap.org/data/2.5/weather?q=Tokyo&appid=ef171a0f7a5385aa841ac64f68cfd9e8');
@@ -47,11 +58,15 @@ export default function Main() {
         {rainny.includes(icon) && <FaCloudRain size={50} />}
       </div>
       <div className="bg-[#EDB88B] flex flex-col items-center justify-center rounded-md">
+        <Link to='/card'>
         <p>Today's activities</p>
+        </Link>
       </div>
-      <div className="bg-[#FAD8D6] flex flex-col items-center justify-center rounded-md">
-        <p>Trip Planning</p>
-      </div>
+        <div className="bg-[#FAD8D6] flex flex-col items-center justify-center rounded-md">
+          <Link to='/planning'>
+            <p>Trip Planning</p>
+          </Link>
+        </div>
     </section>
   )
 }

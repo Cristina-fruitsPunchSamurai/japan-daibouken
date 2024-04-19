@@ -1,16 +1,25 @@
-import { planning } from "../data/planning"
+import planning from '../data/planning'
+import Card from '../components/Card'
+import { useState } from 'react';
 
 export default function Planning() {
+    const [data, setData] = useState(planning);
   return (
-    <>
-        {planning.map((jour) => {
-                return (
-                <div key={jour.id} className='flex justify-between w-1/2 mx-auto my-2'>
-                    <p className='text-slate-800'>{jour.date}</p>
-                    <p className='text-slate-800'>{jour.ville}</p>
+        <div>
+            {data?.map((trip) => (
+                <div key={trip.id}>
+                    <Card
+                        image={trip.image}
+                        city={trip.city}
+                        day={trip.day}
+                        date={trip.date}
+                        hotel={trip.hotel}
+                        tags={trip.tags}
+                        morning={trip.morning}
+                        afternoon={trip.afternoon}
+                    />
                 </div>
-                );
-            })}
-    </>
-  )
+            ))}
+        </div>
+    );
 }
