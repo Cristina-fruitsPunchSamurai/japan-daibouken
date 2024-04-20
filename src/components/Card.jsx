@@ -1,7 +1,7 @@
 
 export default function Card({ image, city, day, date, hotel, tags, morning, afternoon}) {
   return (
-    <div className="rounded overflow-hidden shadow-lg h-screen mb-4">
+    <div className="rounded shadow-lg mb-4">
         <div className='relative'>
             <img className="w-full" src={image} alt="tokyo" />
             <div className="absolute bottom-0 left-0 right-0 bg-gray-800 bg-opacity-75 text-white px-4 py-2">
@@ -30,19 +30,19 @@ export default function Card({ image, city, day, date, hotel, tags, morning, aft
         </>
     )}
         </div>
-        <div>
+        <div className='mb-6'>
             <p className='my-2 bg-sky-300 w-full rounded flex justify-center font-bold text-lg text-gray-500'>Après-midi</p>
             {afternoon && (
-        <>
-            {afternoon.spots.map(spot => (
-                <p key={spot} className="text-zinc-800 font-medium text-base px-6">
-                    {spot}
+            <>
+                {afternoon.spots.map(spot => (
+                    <p key={spot} className="text-zinc-800 font-medium text-base px-6">
+                        {spot}
+                    </p>
+                ))}
+                <p className="text-zinc-800 text-sm px-6 pt-4">
+                    {afternoon.description}
                 </p>
-            ))}
-            <p className="text-zinc-800 text-sm px-6 pt-4">
-                {afternoon.description}
-            </p>
-        </>
+            </>
     )}
         </div>
     </div>
