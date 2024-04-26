@@ -70,13 +70,13 @@ const planning = [
         tags: ['#uesugikenshin', '#kagetora', "#takedaShingen", "kawanakajima"],
         morning :
         {
-            spots : ['Route', 'Daiba 1-chome Shoutengai', 'Unko museum' , 'Deck Tokyo Beach', 'Statue Gundam*', 'Statue de la Liberté*'],
-            description : ""
+            spots : ['Risenji Temple', 'Kasugayama 春日山 castle ruins','Kasugayama Shrine', 'へぎそば🍙', "春日山城跡ものがたり館 Musée de l'histoire des ruines du château de Kasugayama", 'Suruten🍙','Sasadango🍙', 'Ninomiya🍙', 'Hiromitsu🍙'],
+            description : "Prenez la ligne Hokuriku shinkansen jusqu'à la gare de Joetsumyoko, empruntez ensuite la ligne locale Myoko Haneuma jusqu'à la gare de Kasugayama. Prenez ensuite le bus Kubiki et descendez à l'arrêt Nakayashiki ou Kasuga Sanso Mae.Only Hakutaka services stop at Jōetsumyōkō on the Hokuriku Shinkansen. Pour aller à Nagano,depuis Joetsu Myoko  à Nagano Hokuriku Hakutaka 564 Shinkansen. Kasugayama et la forêt son patrimoine de l'UNESCO. Joetsu myoko où se trouvent les ruines était l'Echigo de l'époque Sengoku et Uesugi Kenshin (le samurai juste, re-incarantion de Bishamonten, avec juste deux défaits il est véritablement un des guerriers les plus célebres de Sengoku<3) y vivait. Donc depuis la gare de Kasugayama on marche 40 min environ poru voir le Temple Kasugayama, Risenji et ensuite les ruines du château. Temple Rinsen de l’école Sôtô existe un portrait de Kenshin datan s’il y a 450 ans. C'est où Kenshin a étudié (environ 3 €). Le château de Kasugayama c'est le château où a vécu Kenshin. Nous puvons trouver une statue en bronze de Uesugi Kenshin. A joetsu (Niigata) on peut manger des hegi soba, ce sont des soba d'algue ou des suruten (tempura de calmar seché), sasadango (une sorte de tamal sucré vert). A Ninomiya à côté du temple (ça a l'air bien et dépaysant). Sinon en train à 50 min à Takada il y a aussi des resto de soba et un parc Takada connu. A côté du temple il y a aussi le musée de l'histoire du château on peut aller faire un tour. A côte du musée y a plein de restos notamment Hiromitsu avec des teishoku et syokudo (des repas complets traditionnels) ou sushis mais en vrai c'est un coin perdu"
         },
         afternoon :
         {
-            spots : ['[15h] : Café thème surprise*', 'Animate Shibuya BL*', 'Mandarake*', 'Donki Ikebukuro'],
-            description : ""
+            spots : ['Nagano', 'Hachimanpara Historical Park', 'OYAKI FARM BY IROHADO', 'Zenkoji'],
+            description : "[A REFLECHIR CAR TRAJET COMPLIQUÉ] Si on a le temps on revient vers Kasuga station puis à Joetsu Myoko et de là-bas à Nagano et puis prendre un train à Kawanakajima Kosenjo pour aller au Kawanakajima Old Battlefield Heritage Park. Ici on peut apprendre sur les batailles de Kawanakajima entre Takeda Shingen et Uesugi Kenshin les deux GROS rivaux de Sengoku. Il y a même un statue montrant les deux en bataille. Si on a pas mangé, dans la région de Nagano on peut trouver des soba avec de daikon et surtout oyaki (les beignet farcis). Il y a un resto à côté du musée 'Oyaki farm'. De là-bas il faudrait aller à la station Ohtsuka-Minami qui nous ammene jusqu'à Nagano (1h) et partir depuis là-bs jusq'à Tokyo.[SINON] On peut aller simplement à Nagano et de là-bas pour rentrer on reprend le Hokuriku Shinkansen jusqu'à Tokyo. C'est connu comme ville de ski (a accueilli des JO d'hiver). A nagano il y a le Zenkoji temple"
         }
     },
     {
@@ -166,12 +166,88 @@ const planning = [
         morning :
         {
             spots : ['Nishi Honganji', 'Mibu-Dera', 'Yagitei', 'Pont rouge', 'Ryozen Museum', 'Tombe de Sakamoto Ryoma'],
-            description : "On va d'abord à Nishi Higanji à pieds 20 min ou prendre 206 et descendre à Nanajo Omiya ou marcher 20 min 1,40€ mais grave relou le bus. Ce temple, le 'Hoganji de l'ouest', est un trésor National du Japon et classé à l'UNESCO (le batiment date du XVII car il a resisté aux incendies pas comme le Higashi, celui de l'est). Mais c'était surtout le QG du shinsengumi lorsqu'ils ont commencé à être nombreux (+ de 200 membres). Et donc la maison de la famille Yagi pouvait pas tous les accueillir faute de place. Ensuite on marche 20 min pour aller au Mibu-Dera  et le Yagitei ou le bus 206 et descendre à Omiya Matsubara. Mibu Dera , le quartier général à côté de la maison de la famille Yagi. La maison de la famille Yagi (6,64€), c'est l'endroit qui a accueilli les premiers membres du Shinsengumi quand ils ont voulu rester et se sont séparés du Roshigumi pour etre nommés Shinsengumi. Dans cette maison (in tha back room) par exemple Serizawa Kamo été assasiné (on peut encore voir des traces des katanas). Quand ils ont commencé a être nombreux (après l'Ikedaya incident), ils ont démanagé au Taiko Banya dans le Nishi Honganji Temple. L'adresse du Yagitei est : 京都市中京区壬生梛ノ宮町24, car c'est plus simple de la trouver en japonais. Entre le Yagiya et le Mibu-dera il y a un joli pont rouge. Après le Mibu Dera on marche vers ōmiya et on prend le bus 207 jusqu'à Higashiyama Yasui (1,40€) ou le Hankyu Line depuis Ōmiya jusqu'à Kyoto-Kawaramachi Station et on marche 20 min pour eviter de se tromper de bus à peu près 2€. Ce musée est dédié au Bakumatsu <3 mais à verifier si c'est ouvert car c'est Lundi mais c'est probable qu'il soit ouvert can c'est férié. Là-bas on peut visiter la tombe de Sakamoto Ryōma."
+            description : "On va d'abord à Nishi Higanji à pieds 20 min ou prendre 206 et descendre à Nanajo Omiya ou marcher 20 min 1,40€ mais grave relou le bus. Ce temple, le 'Hoganji de l'ouest', est un trésor National du Japon et classé à l'UNESCO (le batiment date du XVII car il a resisté aux incendies pas comme le Higashi, celui de l'est). Mais c'était surtout le QG du shinsengumi lorsqu'ils ont commencé à être nombreux (+ de 200 membres). Et donc la maison de la famille Yagi pouvait pas tous les accueillir faute de place. Ensuite on marche 20 min pour aller au Mibu-Dera  et le Yagitei ou le bus 206 et descendre à Omiya Matsubara. Mibu Dera , le quartier général à côté de la maison de la famille Yagi. La maison de la famille Yagi (6,64€), c'est l'endroit qui a accueilli les premiers membres du Shinsengumi quand ils ont voulu rester et se sont séparés du Roshigumi pour etre nommés Shinsengumi. Dans cette maison (in tha back room) par exemple Serizawa Kamo été assasiné (on peut encore voir des traces des katanas). Quand ils ont commencé a être nombreux (après l'Ikedaya incident), ils ont démanagé au Taiko Banya dans le Nishi Honganji Temple. L'adresse du Yagitei est : 京都市中京区壬生梛ノ宮町24, car c'est plus simple de la trouver en japonais. Entre le Yagiya et le Mibu-dera il y a un joli pont rouge. Après le Mibu Dera on marche vers ōmiya et on prend le bus 207 jusqu'à Higashiyama Yasui (1,40€) ou le Hankyu Line depuis Ōmiya jusqu'à Kyoto-Kawaramachi Station et on marche 20 min pour eviter de se tromper de bus à peu près 2€. Le musée Ryouzen est dédié au Bakumatsu <3 mais à verifier si c'est ouvert car c'est Lundi mais c'est probable qu'il soit ouvert can c'est férié. Là-bas on peut visiter la tombe de Sakamoto Ryōma."
         },
         afternoon :
         {
             spots : ['Sanjō Bridge', 'Ikedaya Inn (Hana no Mai Restaurant)'],
-            description : "[17h] Pour fini on prend le train à Gion-Shijo jusqu'à Sanjo Station (1€) pour aller voir le Sanjo bridge et l'ikedaya inn. On a reservé à 17h au Hana no Mai Restaurant (Ikedaya Inn). Sanjō Bridge, ici a été publié une annonce indiquant que le Chōshū clan étaient les ennemies de l'empereur. Cet annonce était placé stratégiquemenrt puisque le pont était le dernier passage du Tokaido (la route tokyo - kyoto), les membres du Chōshū n'ont pas apprécié et ont décidé de l'arracher deux fois mais au troisième essai les shnsengumi les ont arretés. L'Ikedaya Inn est l'endroit où des membres de l'Isshin shishi (dont Katsura Kogoro) était réunis pour planifier comment sauver  Shintaro Furutaka qui avait été incarceré par le shinsengumi. Les shinsengumi les ont surpris et ont assasiné 4 et arreté plusieurs membres de cette faction terr*%?.. C'est une partie clé de l'histoire du shinsengumi. De l'ikedaya on peut rentrer à OSaka en allant depuis la station Sanjō à Yodoyabashi Station Osaka à 12min de l'hotel à pieds.Avec la Keihan Main Line (2,59€)."
+            description : "[17h] Pour fini on prend le train à Gion-Shijo jusqu'à Sanjo Station (1€) pour aller voir le Sanjo bridge et l'ikedaya inn. On a reservé à 17h au Hana no Mai Restaurant (Ikedaya Inn). Sanjō Bridge, ici a été publié une annonce indiquant que le Chōshū clan étaient les ennemies de l'empereur. Cet annonce était placé stratégiquemenrt puisque le pont était le dernier passage du Tokaido (la route tokyo - kyoto), les membres du Chōshū n'ont pas apprécié et ont décidé de l'arracher deux fois mais au troisième essai les shnsengumi les ont arretés. L'Ikedaya Inn est l'endroit où des membres de l'Isshin shishi (dont Katsura Kogoro) était réunis pour planifier comment sauver  Shintaro Furutaka qui avait été incarceré par le shinsengumi. Les shinsengumi les ont surpris et ont assasiné 4 et arreté plusieurs membres de cette faction terr*%?.. C'est une partie clé de l'histoire du shinsengumi. De l'ikedaya on peut rentrer à Osaka en allant depuis la station Sanjō à Yodoyabashi Station Osaka à 12min de l'hotel à pieds.Avec la Keihan Main Line (2,59€)."
+        }
+    },
+    {
+        id:9,
+        image : osaka,
+        city : 'Osaka - Ikebukuro ',
+        day: 'Mardi',
+        date : '07 5月 2024',
+        hotel: 'Centurion Hotel Ikebukuro Station - 池袋駅 Gare Ikebukuro',
+        tags: ['#pancakes','#otomeRoad', '#lobulobu<3'],
+        morning :
+        {
+            spots : ['A Happy Pancake Shinsaibashi', 'Tsuyuten Jinja 露天神社'],
+            description : "[11h30] petit déjeuner à Happy pancake vers Shinsaibashi. Si on a le temps ou on cherche quoi faire à Osaka on peut aller à umeda (qu'on a pas encore visité). On peut aller en metro Hommachi Station jusqu'à Umeda Station avec la Midosuji line. A côté il y a Umeda building et aussi le Tsuyuten Jinja). Petit sanctuaire shinto, théâtre d'une légende romantique tragique, au sein duquel les couples peuvent se jurer un amour éternel. Hommage à un couple à l’amour impossible. En 1703 ce refuge shintô devient le théâtre d’un double suicide : celui du fils d’un riche marchand et de sa moitié courtisane. Ne pouvant vivre leur passion aux yeux de la société, ils choisissent de mettre fin à leurs jours dans le Tsuyunoten."
+        },
+        afternoon :
+        {
+            spots : ['Animate Ikebukuro', 'K-BOOKS Otome Pavilion', 'K-BOOKS Chara Pavilion', 'K Books K-BOOKS 池袋GAME館', 'Sunshine City Mall', 'ACOS Ikebukuro', 'Charadori!! BLANC', 'Otomate store Shinjuku'],
+            description : "Après le petit-dej ou quand on veut on peut rentrer à Tokyo depuis la gare Shin-Osaka jusqu'à Ikebukuro. L'après-midi on fait l'Otome Road, lieu de pelerinage des fujoshis. Tout cela se passe côté est (Higashi Ikebukuro) je crois. On commence bien évidemment par Animate (3F). Ensuite, on va faire un tour à K-Books otome, chara et game. Le premier est dédié à des choses BL, le deuxième aux shōnen et le dernier au des jeux-vidéos. Après on va vers Sunshine mall, si on est allé déjà, on va seulement à ACOS (2F-3F), un magasin de cosplay.Parfois à côté au parc Ikebukuro Est on peut voir des groupes de cosplayeurs. On va prendre un café au Charadori Blanc (きゃらどり BLANC). L'adresse est : 	東京都千代田区外神田4-3-10 シャトンビル (4 Chome−3−10 シャトンビル 2階).C'est un takeout donc on prend un truc et un goodies de happy of the end et c'est bon. Et je crois qu'on peut juste aller pour les goodies (entrée libre sans résa). Le bâtiment à côté du Pachinko Et finalement si on est pas encore allé on peut aller faire un tour au Otomate store mais il faut aller à Shinjuku (pas loin en métro)"
+        }
+    },
+    {
+        id:10,
+        image : tokyo,
+        city : 'Tokyo',
+        day: 'Mercredi',
+        date : '08 5月 2024',
+        hotel: 'Centurion Hotel Ikebukuro Station - 池袋駅 Gare Ikebukuro',
+        tags: [],
+        morning :
+        {
+            spots : [''],
+            description : ""
+        },
+        afternoon :
+        {
+            spots : [''],
+            description : ""
+        }
+    },
+    {
+        id:11,
+        image : tokyo,
+        city : 'Tokyo',
+        day: 'Jeudi',
+        date : '09 5月 2024',
+        hotel: 'Centurion Hotel Ikebukuro Station - 池袋駅 Gare Ikebukuro',
+        tags: [],
+        morning :
+        {
+            spots : [''],
+            description : ""
+        },
+        afternoon :
+        {
+            spots : [''],
+            description : ""
+        }
+    },
+        {
+        id:12,
+        image : tokyo,
+        city : 'Tokyo - Haneda',
+        day: 'Vendredi',
+        date : '10 5月 2024',
+        hotel: '',
+        tags: [],
+        morning :
+        {
+            spots : [''],
+            description : ""
+        },
+        afternoon :
+        {
+            spots : [''],
+            description : ""
         }
     },
 ];
